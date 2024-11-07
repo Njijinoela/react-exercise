@@ -22,7 +22,7 @@ function ShopKeeperApp(){
                         <td>{item.name}</td>
                         <td>{item.qty}</td>
                         <td>{item.unit_cost}</td>
-                        <td>{totalcost}</td>
+                        <td>{totalcost.toLocaleString(undefined)}</td>
                         
                     </tr>
                 })}
